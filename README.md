@@ -136,5 +136,5 @@ typedef NS_ENUM(NSUInteger, SFOtaV3ImageID) {
 ## 3. 错误码
 错误码参照[ios-sdk-error-code](http://docs.sifli.cc/solution2_0_doc/mobile-sdk/ota/ota_v3_error_code.html)
 
-## 4. ChageLog
+## 4. Change Log
 - 3.1.8 初始化
