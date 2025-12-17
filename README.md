@@ -13,8 +13,8 @@ import SifliOCore
 ```
 版本号匹配
 
-- SifliOtaSDK 3.1.8
-- SifliOCore 1.0.11
+- SifliOtaSDK 3.1.9
+- SifliOCore 1.0.12
 
 -  初始化
 
@@ -137,4 +137,5 @@ typedef NS_ENUM(NSUInteger, SFOtaV3ImageID) {
 错误码参照[ios-sdk-error-code](http://docs.sifli.cc/solution2_0_doc/mobile-sdk/ota/ota_v3_error_code.html)
 
 ## 4. Change Log
-- 3.1.8 初始化
+- 3.1.8/1.0.11初始化
+- 3.1.9/1.0.12 支持arm64模拟器
