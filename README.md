@@ -1,7 +1,7 @@
 # OTA V3 iOS SDK
 ## 1. 集成
 
-Swift Package
+### 1.1 Swift Package
 ```bash
 https://github.com/OpenSiFli/SifliOtaSDK_iOS.git
 https://github.com/OpenSiFli/SifliOCore.git
@@ -16,7 +16,14 @@ import SifliOCore
 - SifliOtaSDK 3.1.9
 - SifliOCore 1.0.12
 
--  初始化
+### 1.2 CocoaPod
+
+```bash
+  pod 'SifliOCore','1.0.12'
+  pod 'SifliOtaSDK','3.1.9'
+```
+
+### 1.3  初始化
 
 ```java
 let manager = SFOtaV3Manager.shared()
