@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/SifliOCore.framework/Info.plist</key>
+		<data>
+		+Q3eT84TWqeUr+O8gzuCQqEHreo=
+		</data>
+		<key>Frameworks/SifliOCore.framework/SifliOCore</key>
+		<data>
+		dU1CKfDDLViY+c2yCIvDGsqsjxQ=
+		</data>
+		<key>Frameworks/SifliOCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		caxXzlHCrOz161erwOAoWN4mKAY=
+		</data>
 		<key>Headers/SFOtaV3BinFileInfo.h</key>
 		<data>
 		dZrl0RllSZAr0ruw+yvgjCWl0X4=
@@ -50,11 +62,11 @@
 		</data>
 		<key>Headers/VersionConstant.h</key>
 		<data>
-		PHwW/caJ4Vgu+wXNZmQ4Lb2L/1M=
+		5cV87pV7fC8K4mkhZ7ueHvExWF0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Wnz5g6aKweQaE/ZBuy5bVCeUPm0=
+		3d1fHECY2Ic6Kb/BiA27RaFbc3Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,6 +75,39 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/SifliOCore.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+Q3eT84TWqeUr+O8gzuCQqEHreo=
+			</data>
+			<key>hash2</key>
+			<data>
+			66pfEniSOZZkiDZIOP9fFzL+0bYu0dfVpmZa6X7izZM=
+			</data>
+		</dict>
+		<key>Frameworks/SifliOCore.framework/SifliOCore</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dU1CKfDDLViY+c2yCIvDGsqsjxQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			cTmKSX4TQGTPddnl7a3wCcKViFq9K99X+7ZfxLt73oE=
+			</data>
+		</dict>
+		<key>Frameworks/SifliOCore.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			caxXzlHCrOz161erwOAoWN4mKAY=
+			</data>
+			<key>hash2</key>
+			<data>
+			lyagNDGKogytm/3Kn3GstzPNh+ZznGlp21f2GQyUpec=
+			</data>
+		</dict>
 		<key>Headers/SFOtaV3BinFileInfo.h</key>
 		<dict>
 			<key>hash</key>
@@ -188,11 +233,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PHwW/caJ4Vgu+wXNZmQ4Lb2L/1M=
+			5cV87pV7fC8K4mkhZ7ueHvExWF0=
 			</data>
 			<key>hash2</key>
 			<data>
-			vvY7F5O+2vYKh7lyQ3ItcOb6FKWup0Cfat7jlJ9dOtc=
+			C5xUTxfYgUbvMS2cw7jbaBZZTLgth5e4kH6bJSdOoJ4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
