@@ -23,7 +23,7 @@ typedef NS_ENUM(NSUInteger, SFOtaV3ImageID) {
     SFOtaV3ImageIDNandNym = 10,
     SFOtaV3ImageIDNandFtab = 11
 };
-static const NSUInteger kSFOtaV3ImageIDMax = SFOtaV3ImageIDNandFtab;
+static const NSUInteger kSFOtaV3ImageIDMax = 50;
 
 
 NS_ASSUME_NONNULL_END

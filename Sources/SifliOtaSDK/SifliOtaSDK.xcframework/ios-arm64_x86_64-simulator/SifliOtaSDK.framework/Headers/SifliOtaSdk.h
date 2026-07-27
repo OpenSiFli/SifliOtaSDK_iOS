@@ -25,3 +25,4 @@ FOUNDATION_EXPORT const unsigned char SifliOtaSdkVersionString[];
 #import <SifliOtaSdk/VersionConstant.h>
 #import <SifliOtaSdk/SFPreviewImageConfigration.h>
 #import <SifliOtaSdk/SFPreviewImageManager.h>
+#import <SifliOtaSdk/SFPreviewQRHelper.h>
