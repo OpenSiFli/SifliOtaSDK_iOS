@@ -13,14 +13,14 @@ import SifliOCore
 ```
 版本号匹配
 
-- SifliOtaSDK 3.1.9
-- SifliOCore 1.0.12
+- SifliOtaSDK 3.3.6
+- SifliOCore 2.2.2
 
 ### 1.2 CocoaPod
 
 ```bash
-  pod 'SifliOCore','1.0.12'
-  pod 'SifliOtaSDK','3.1.9'
+  pod 'SifliOCore','2.2.2'
+  pod 'SifliOtaSDK','3.3.6'
 ```
 
 ### 1.3  初始化
