@@ -146,3 +146,4 @@ typedef NS_ENUM(NSUInteger, SFOtaV3ImageID) {
 ## 4. Change Log
 - 3.1.8/1.0.11初始化
 - 3.1.9/1.0.12 支持arm64模拟器
+- 3.3.6/2.2.2 优化ble写入，支持自定义ImageID

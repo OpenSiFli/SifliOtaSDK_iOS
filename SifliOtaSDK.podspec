@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SifliOtaSDK"
-  spec.version      = "3.2.0"
+  spec.version      = "3.3.6"
   spec.summary      = "SifliOtaSDK.表盘推送、视频预览"
 
   # This description is used to generate tags and improve search results.
@@ -137,7 +137,7 @@ Pod::Spec.new do |spec|
    spec.requires_arc = true
 
    spec.xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' } 
-   spec.dependency "SifliOCore", "~> 2.0.1"
+   spec.dependency "SifliOCore", "~> 2.2.0"
 
 
 end
