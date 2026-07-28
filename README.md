@@ -38,7 +38,7 @@ let manager = SFOtaV3Manager.shared()
 
 - zip 插件
 
-3.3.6版本之后，zip 模块从SifliOCore剥离，如果要进行NAND 差分包升级，可以使用SFSSZipArchivePlugin,也可以自行这个插件接口。
+3.3.6版本之后，zip 模块从SifliOCore剥离，如果要进行NAND 差分包升级，可以使用SFSSZipArchivePlugin,也可以自行实现这个插件接口。
 
 初始化方式
 
