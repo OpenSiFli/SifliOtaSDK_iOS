@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SifliOtaSDK"
-  spec.version      = "3.3.6"
+  spec.version      = "3.3.7"
   spec.summary      = "SifliOtaSDK.表盘推送、视频预览"
 
   # This description is used to generate tags and improve search results.

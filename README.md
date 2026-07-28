@@ -134,9 +134,9 @@ typedef NS_ENUM(NSUInteger, SFOtaV3ImageID) {
 };
 
 @interface SFOtaV3BinFileInfo : SFOtaV3FileInfo
-@property(nonatomic,assign) SFOtaV3ImageID imageId;
+@property(nonatomic,assign) uint16_t imageId;
 @property(nonatomic,copy,nullable)NSString *hexOffset;
-- (instancetype)initWidthFileType:(SFOtaV3DfuFileType)fileType filePath:(NSString *)filePath imageId:(SFOtaV3ImageID)imageId;
+- (instancetype)initWidthFileType:(SFOtaV3DfuFileType)fileType filePath:(NSString *)filePath imageId:(uint16_t)imageId;
 @end
 ```
 
@@ -147,3 +147,4 @@ typedef NS_ENUM(NSUInteger, SFOtaV3ImageID) {
 - 3.1.8/1.0.11初始化
 - 3.1.9/1.0.12 支持arm64模拟器
 - 3.3.6/2.2.2 优化ble写入，支持自定义ImageID
+- 3.3.7/2.2.2 sdk内部去除SFOtaV3ImageID依赖，便于自定义ImageId

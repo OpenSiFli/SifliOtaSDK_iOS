@@ -9,7 +9,7 @@
 #define SFOtaV3ImageID_h
 
 NS_ASSUME_NONNULL_BEGIN
-typedef NS_ENUM(NSUInteger, SFOtaV3ImageID) {
+typedef NS_ENUM(uint16_t, SFOtaV3ImageID) {
     SFOtaV3ImageIDHcpu = 0,
     SFOtaV3ImageIDLcpu = 1,
     SFOtaV3ImageIDLcpuPatch = 2,
@@ -23,7 +23,7 @@ typedef NS_ENUM(NSUInteger, SFOtaV3ImageID) {
     SFOtaV3ImageIDNandNym = 10,
     SFOtaV3ImageIDNandFtab = 11
 };
-static const NSUInteger kSFOtaV3ImageIDMax = 50;
+static const uint16_t kSFOtaV3ImageIDMax = 50;
 
 
 NS_ASSUME_NONNULL_END
