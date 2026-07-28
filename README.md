@@ -5,6 +5,9 @@
 ```bash
 https://github.com/OpenSiFli/SifliOtaSDK_iOS.git
 https://github.com/OpenSiFli/SifliOCore.git
+
+可选
+https://github.com/OpenSiFli/SFSSZipArchivePlugin.git
 ```
 
 ```java
@@ -20,7 +23,10 @@ import SifliOCore
 
 ```bash
   pod 'SifliOCore','2.2.2'
-  pod 'SifliOtaSDK','3.3.6'
+  pod 'SifliOtaSDK','3.3.7'
+  
+  可选
+  pod  'SFSSZipArchivePlugin','1.0.1'
 ```
 
 ### 1.3  初始化
@@ -32,6 +38,17 @@ let manager = SFOtaV3Manager.shared()
  //需要实现SFOtaV3ManagerDelegate
   manager.delegate = self
  }
+```
+
+- zip 插件
+
+3.3.6版本之后，zip 模块从SifliOCore剥离，如果要进行NAND 差分包升级，可以使用SFSSZipArchivePlugin,也可以自行这个插件接口。
+
+初始化方式
+
+```swift
+import SFSSZipArchivePlugin
+SFZipHelper.shared().zipDelegate = SFSSZipArchiver.shared()
 ```
 
 ## 2. 接口调用
