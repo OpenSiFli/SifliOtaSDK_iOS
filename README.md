@@ -14,10 +14,6 @@ https://github.com/OpenSiFli/SFSSZipArchivePlugin.git
 import SifliOtaSDK
 import SifliOCore
 ```
-版本号匹配
-
-- SifliOtaSDK 3.3.6
-- SifliOCore 2.2.2
 
 ### 1.2 CocoaPod
 
