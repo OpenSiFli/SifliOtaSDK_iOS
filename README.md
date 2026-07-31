@@ -22,7 +22,7 @@ import SifliOCore
   pod 'SifliOtaSDK','3.3.7'
   
   可选
-  pod  'SFSSZipArchivePlugin','1.0.1'
+  pod  'SFSSZipArchivePlugin','1.0.2'
 ```
 
 ### 1.3  初始化
