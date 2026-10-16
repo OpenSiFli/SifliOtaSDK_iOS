@@ -161,3 +161,4 @@ typedef NS_ENUM(NSUInteger, SFOtaV3ImageID) {
 - 3.1.9/1.0.12 支持arm64模拟器
 - 3.3.6/2.2.2 优化ble写入，支持自定义ImageID
 - 3.3.7/2.2.2 sdk内部去除SFOtaV3ImageID依赖，便于自定义ImageId
+- 3.3.8/2.2.3 sdk内部去掉SifliOCore Bundle
