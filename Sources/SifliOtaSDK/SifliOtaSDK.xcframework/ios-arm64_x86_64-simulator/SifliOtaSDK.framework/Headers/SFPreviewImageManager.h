@@ -23,8 +23,10 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 ///当前帧的发送进度，当进度达到一定时开始制作新帧
 ///previewType = SFPreviewImageTypeImage 时需要实现此回调
+///@param process process 申请制作下一帧时当前帧的发送进度
+///@param cacheSize 当前缓存余量
 ///注意:该回调在子线程执行，便于UI层在非主线程合成下一帧
-- (void)previewImageManager:(SFPreviewImageManager *)manager makeNextFrame:(float) process;
+- (void)previewImageManager:(SFPreviewImageManager *)manager makeNextFrame:(float) process cacheSize:(NSInteger)cacheSize;
 ///初始化命令就绪，可以开始发送图片
 ///previewType = SFPreviewImageTypeImage 时需要实现此回调
 - (void)previewImageManageReadyToSendImage;
@@ -43,7 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 预览模式改变,用于地图投屏 previewType = SFPreviewImageTypeImage 时需要实现此回调
 /// @param manager self
-/// @param mode 预览模式 1,投屏地图;2,投品信息
+/// @param mode 预览模式 1,投屏地图;2,投品信息 3 吧唧拍照 4 吧唧录像 5 吧唧停止录像
 - (void)previewImageManager:(SFPreviewImageManager *)manager onPreviewModeChanged:(NSInteger)mode;
 
 
@@ -107,6 +109,23 @@ NS_ASSUME_NONNULL_BEGIN
 ///   - navInfo: 导航信息，速度，距离等组成的json/protobuf
 ///   - timeStamp: 时间戳
 - (void)previewNavInfo:(NSData *)navInfo timeStamp:(NSTimeInterval)timeStamp;
+
+
+/// 向吧唧设备发送状态信息
+/// - Parameters:
+///   - statusCode: 状态码
+///   - cameraType: 摄像类型 01 延迟摄影; 02 视频 03 照片 04 人像 05 夜景
+///   - timeStamp: 时间戳
+- (void)previewBadageState:(uint32_t)statusCode
+                cameraType:(uint32_t)cameraType
+                 timeStamp:(NSTimeInterval)timeStamp;
+
+/// 发送一帧已经编码好的jpeg数据
+/// - Parameter jpegData: jpeg data YCBCR JPEG
+- (void)previewJpegSample:(NSData *)jpegData;
+ 
+/// 发送心跳帧
+- (void)previewHeartFrame;
 
 /// 结束预览视频,保持连接
 - (void)endPreviewVideo;

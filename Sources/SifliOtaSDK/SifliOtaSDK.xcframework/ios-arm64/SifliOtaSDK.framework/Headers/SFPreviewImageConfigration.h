@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <SifliOCore/SifliImageHelper.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -33,6 +34,8 @@ typedef NS_ENUM(NSUInteger, SFPreviewImageType) {
 ///previewType =SFPreviewImageTypeImage 时是否允许调整图像尺寸
 ///YES,watchScreenSize,rotation 这两个参数将会有效
 @property (nonatomic,assign) BOOL isAspectSizeForImage;
+@property (nonatomic,assign) BOOL isMirroredHorizontally;
+@property (nonatomic,assign) SFImageContentMode imageContentMode;
 @end
 
 NS_ASSUME_NONNULL_END

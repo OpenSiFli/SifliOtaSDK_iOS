@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/SifliOCore.framework/Info.plist</key>
-		<data>
-		XuXih2y9PAGJ3F6c+rauRlMAiWA=
-		</data>
-		<key>Frameworks/SifliOCore.framework/SifliOCore</key>
-		<data>
-		qk8wAptcmtspzhCBc54jsf7tDEs=
-		</data>
-		<key>Frameworks/SifliOCore.framework/_CodeSignature/CodeResources</key>
-		<data>
-		k9qNNknWUBUshICTmOB+fzE5Dt4=
-		</data>
 		<key>Headers/SFOtaV3BinFileInfo.h</key>
 		<data>
 		DLAKU923ik9NlceVrvvjHlx5ulk=
@@ -50,11 +38,11 @@
 		</data>
 		<key>Headers/SFPreviewImageConfigration.h</key>
 		<data>
-		qDWE6tWxlqZZ1UdpQVGVygfUE2w=
+		apP/A5uQhe+eUWSerxTFH97INTA=
 		</data>
 		<key>Headers/SFPreviewImageManager.h</key>
 		<data>
-		p9GJ52ir7j7BXC7cpNlKti1kHqg=
+		Pe+NucRTjJYl7ORZSM8QWytUb/E=
 		</data>
 		<key>Headers/SFPreviewQRHelper.h</key>
 		<data>
@@ -70,7 +58,7 @@
 		</data>
 		<key>Headers/VersionConstant.h</key>
 		<data>
-		oGtLuvy70xK79kai0hEJO9Z8/l0=
+		zj3c1bMDYOFrGKXvWcNwVo/fKcs=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -83,27 +71,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/SifliOCore.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8/8itM6Ka5V2vE6DacavEPL1rK//FMedE/rJH/IRDWs=
-			</data>
-		</dict>
-		<key>Frameworks/SifliOCore.framework/SifliOCore</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Gi9ac+TJKQe05SxCFTIL9SPdnt6uQrOUPos/+0HM87Q=
-			</data>
-		</dict>
-		<key>Frameworks/SifliOCore.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ex2M2cxkDcb46PIpF0LRhi8Abm8r6UeTkEd2SvfX2SI=
-			</data>
-		</dict>
 		<key>Headers/SFOtaV3BinFileInfo.h</key>
 		<dict>
 			<key>hash2</key>
@@ -164,14 +131,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tMnxdqfoIuUT2y3PBvL8lAo9ivl7f4YECBYXgASDx0c=
+			2UJ0LlxuuwmwW5YQNk23/EkvhJU8Uf31O6wegB12PDg=
 			</data>
 		</dict>
 		<key>Headers/SFPreviewImageManager.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dYOPDZeJoqKzA4x+Ch0trkiXKtBMxigeLgIYnnIjN7w=
+			kRx2MiCd7e5JXiju1LccYmOR6FP3D7UQuUrhD9nq+qA=
 			</data>
 		</dict>
 		<key>Headers/SFPreviewQRHelper.h</key>
@@ -199,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HUy9JszClUfHz8KS/Xw/D9ChQkG8XHC+HSk51H2jc8w=
+			fJzpZDwGbT5NfxIJ2JkWNDWVUM3JnqIIVhIkk46jMTc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
