@@ -17,8 +17,9 @@
 ///3.3.5 增加二维码简写字段
 ///3.3.6 最大imageId校验提升到50
 ///3.3.7 内部去掉SFOtaV3ImageID依赖，便于外部自定义ImageID
-///3.3.8 增加心跳帧
-static NSString * const kSDKVersion = @"3.3.8";
-static NSInteger const kOtaVersion = 4;
+///3.3.8 增加心跳帧，xc打包移除嵌入sifliocore bundle
+///3.4.0 拆分SifliOtaSdk 后的大版本号
+static NSString * const kSDKVersion = @"3.4.0";
+//static NSInteger const kOtaVersion = 4;
 
 #endif /* VersionConstant_h */

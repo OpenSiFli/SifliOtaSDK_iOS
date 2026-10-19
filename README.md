@@ -5,6 +5,7 @@
 ```bash
 https://github.com/OpenSiFli/SifliOtaSDK_iOS.git
 https://github.com/OpenSiFli/SifliOCore.git
+https://github.com/OpenSiFli/SifliSol2Model_iOS.git
 
 可选
 https://github.com/OpenSiFli/SFSSZipArchivePlugin.git
@@ -15,14 +16,15 @@ import SifliOtaSDK
 import SifliOCore
 ```
 
-### 1.2 CocoaPod
+### 1.2 最新版本组合
 
 ```bash
-  pod 'SifliOCore','2.2.2'
-  pod 'SifliOtaSDK','3.3.7'
+  'SifliOCore','2.2.3'
+  'SifliSol2Model','3.3.9'
+  'SifliOtaSDK','3.4.0'
   
   可选
-  pod  'SFSSZipArchivePlugin','1.0.2'
+  'SFSSZipArchivePlugin','1.0.2'
 ```
 
 ### 1.3  初始化
@@ -162,3 +164,4 @@ typedef NS_ENUM(NSUInteger, SFOtaV3ImageID) {
 - 3.3.6/2.2.2 优化ble写入，支持自定义ImageID
 - 3.3.7/2.2.2 sdk内部去除SFOtaV3ImageID依赖，便于自定义ImageId
 - 3.3.8/2.2.3 sdk内部去掉SifliOCore Bundle
+- 3.4.0/2.2.3/3.3.9 sdk架构优化为SifliOtaSDK + SifliOCore + SifliSol2Model

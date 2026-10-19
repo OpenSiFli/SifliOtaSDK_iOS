@@ -11,7 +11,7 @@
 #import <SifliOtaSDK/SFOtaV3ResourceFileInfo.h>
 #import <SifliOtaSDK/SFOtaV3BinFileInfo.h>
 
-#import <SifliOtaSDK/SFOtaV3Error.h>
+#import <SifliSol2Model/SFOtaV3Error.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @class SFOtaV3Manager;
