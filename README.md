@@ -21,7 +21,7 @@ import SifliOCore
 ```bash
   'SifliOCore','2.2.3'
   'SifliSol2Model','3.3.9'
-  'SifliOtaSDK','3.4.0'
+  'SifliOtaSDK','3.4.1'
   
   可选
   'SFSSZipArchivePlugin','1.0.2'
