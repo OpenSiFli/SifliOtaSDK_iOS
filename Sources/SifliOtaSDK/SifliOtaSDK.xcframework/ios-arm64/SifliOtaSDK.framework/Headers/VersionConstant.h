@@ -19,7 +19,8 @@
 ///3.3.7 内部去掉SFOtaV3ImageID依赖，便于外部自定义ImageID
 ///3.3.8 增加心跳帧，xc打包移除嵌入sifliocore bundle
 ///3.4.0 拆分SifliOtaSdk 后的大版本号
-static NSString * const kSDKVersion = @"3.4.0";
+///3.4.1 hexOffset更名为hexNewAddr,并且校正为大端序文本输入
+static NSString * const kSDKVersion = @"3.4.1";
 //static NSInteger const kOtaVersion = 4;
 
 #endif /* VersionConstant_h */

@@ -165,3 +165,4 @@ typedef NS_ENUM(NSUInteger, SFOtaV3ImageID) {
 - 3.3.7/2.2.2 sdk内部去除SFOtaV3ImageID依赖，便于自定义ImageId
 - 3.3.8/2.2.3 sdk内部去掉SifliOCore Bundle
 - 3.4.0/2.2.3/3.3.9 sdk架构优化为SifliOtaSDK + SifliOCore + SifliSol2Model
+- 3.4.1 hexOffset更名为hexAddr,校正为大端序输入
